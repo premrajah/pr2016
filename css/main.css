@@ -5,7 +5,9 @@ Author: Prem Rajah, 2016
 */
 
 
-/* Body */
+/* Body 
+____________________________________________ */
+
 @import url('http://fonts.googleapis.com/css?family=Roboto:400,700');
 /* Heading */
 @import url('http://fonts.googleapis.com/css?family=Merriweather:400,700');
@@ -42,9 +44,8 @@ Author: Prem Rajah, 2016
 
 
 
-
-	/* Cosmetic Changes 
-	============================ */
+/* Cosmetic Changes 
+____________________________________________ */
 
 	.block{
     	padding: 20px 0px;   
@@ -59,8 +60,8 @@ Author: Prem Rajah, 2016
 	
 
 
-	/* Navbar
-	============================ */
+/* Navbar
+____________________________________________ */
 
 	.brand-img {
 
@@ -74,8 +75,8 @@ Author: Prem Rajah, 2016
 	}
 
 	
-	/* Info Card 
-	=========================== */
+/* Info Card 
+____________________________________________ */
 	
 	.frame {
 	  /*max-width: 730px;*/
@@ -310,10 +311,14 @@ ____________________________________________ */
 
 
 /*
-Development Area 
+Portfolio and Development Area 
 ____________________________________________ */
 
-/* External div */
+.portfolio-img {
+
+	margin-left: -14px;
+}
+
 .dev-box-ex {
 
 	/*width: 300px;*/
@@ -322,7 +327,7 @@ ____________________________________________ */
 	border-bottom: 2px solid #fff;
 	border-right: 2px solid #fff;
 	margin: 5% auto 0 auto;
-	background: url(https://files.graphiq.com/stories/t2/tiny_cat_12573_8950.jpg);
+	/*background: url(https://files.graphiq.com/stories/t2/tiny_cat_12573_8950.jpg);*/
 	background-size: cover;
 	border-radius: 5px;
 	overflow: hidden;
@@ -354,6 +359,8 @@ ____________________________________________ */
 	opacity: 0;
 	-webkit-transition: opacity .25s ease;
 	-mox-transition: opacity .25s ease;
+	/*position: absolute;*/
+	/*z-index: -1;*/
 }
 
 
@@ -387,7 +394,7 @@ ____________________________________________ */
 }
 
 
-.portfolio-header-area img{
+.portfolio-header-area img {
 
 	height: 300px;
 	max-height: 300px;
@@ -418,7 +425,7 @@ ____________________________________________ */
 
 .work-image-area img {
 
-	height: 200px;
+	height: 300px;
 	max-height: 300px;
 
 	background-color: red;
@@ -476,14 +483,23 @@ li img {
 ================================= */
 @media screen and (max-width: 720px) {
 
-		.frame {
-			max-width: 90%;
-		}
+	.frame {
+		max-width: 90%;
+	}
 
 
-	  .modal img {
-	    width: 80%;
-	  }
+	.modal img {
+	width: 80%;
+	}
+
+
+/* portfolio area 
+_____________________________________________________ */
+
+	.work-image-area img {
+
+	 	margin: 10px;
+	}
 
 	  
 
@@ -517,6 +533,7 @@ li img {
 	}
 
 
+
 /* Info Card
 ============================ */
 
@@ -537,6 +554,16 @@ li img {
   	.card .values_list li {
     	margin: 0px 5px;
   	}
+
+
+
+ /* portfolio area 
+ _____________________________________________________ */
+
+	.work-image-area img {
+
+	 	margin: 10px;
+	}
 
 
 

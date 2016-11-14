@@ -57,6 +57,12 @@
             <li><a href="index.php#section-3">Resume</a></li>
             <li><a href="index.php#section-4">Links</a></li>
           </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li> <a href="https://twitter.com/premrajah" target="_blank" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+            <li> <a href="https://www.linkedin.com/in/premrajah" target="_blank" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> </li>
+            <li> <a href="https://github.com/premrajah" title="Github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> </li>
+          </ul>
         </div>
         <!--/.navbar-collapse -->
       </div> 
@@ -74,8 +80,9 @@
             <h1 class="work-title">Work Title</h1>
             <p class="work-subtitle">Sub heading</p>
 
+            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
             <i class="fa fa-external-link" aria-hidden="true"></i> 
-            <a href="#" title="">Live link to website</a>
+            <a href="#" title="Live page" target="_blank">Live link to website</a>
 
           </div>
         </div>
