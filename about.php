@@ -1,4 +1,4 @@
-section-1 -->
+<!-- section-1 -->
 <div class="block section-1" id="section-1">
     <div class="row">
         <div class="col-xs-12">
@@ -65,7 +65,6 @@ section-1 -->
                     <h5><a href="http://www.unom.ac.in/" title="University Of Madras">University Of Madras</a></h5>
                     <h6><b>2001 - 2004</b></h6>
                   </li>
-                  
                 </ul>
 
             </div>
@@ -189,19 +188,9 @@ section-1 -->
             <p class="about-text">
                 I use semantic markup that is well documented and easy to read, meaning it can be well maintained and scaled in the future allowing co-workers to quickly work with it.
             </p>
-
-
-
-
-            
-
-            
         </div>  
     </div>
 
-
-    
-    
-    
+    <div class="blank-space"></div>  
 </div> 
-<!-- end section-1
+<!-- end section-1 -->

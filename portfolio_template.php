@@ -66,22 +66,65 @@
     
     
       <!-- Content area  -->
-      <div class="jumbotron">
-        <div class="container">
-          <h1>Title</h1>
-          
+      <div class="portfolio-contain">
+
+        <div class="row work-title-area">
+          <div class="col-xs-10 col-xs-offset-1">
+
+            <h1 class="work-title">Work Title</h1>
+            <p class="work-subtitle">Sub heading</p>
+
+            <i class="fa fa-external-link" aria-hidden="true"></i> 
+            <a href="#" title="">Live link to website</a>
+
+          </div>
         </div>
+
+
+
+        <div class="portfolio-header-area">
+
+          <div class="jumbotron">
+            <div class="container">
+              <img src="" alt="" class="img-responsive">
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="row work-text-area">
+          <div class="col-xs-8 col-xs-offset-2">
+            <p>
+              Some information text <br>
+              Some information text <br>
+              Some information text <br>
+            </p>
+          </div>
+        </div>
+
       </div>
 
 
+      <div class="row work-image-area">
+        <div class="col-sm-4">
+          <img src="" alt="" class="img-responsive">
+        </div>
 
+        <div class="col-sm-4">
+          <img src="" alt="" class="img-responsive">
+        </div>
 
+        <div class="col-sm-4">
+          <img src="" alt="" class="img-responsive">
+        </div>
+      </div>
       <!-- end content  area-->
 
 
         
 
-
+      <div class="blank-space"></div>
 
     <!-- Footer Area (outside container) -->
     <?php include 'footer.php' ?> 

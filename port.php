@@ -1,4 +1,4 @@
-section-2 -->
+<!-- section-2 -->
 <div class="block" id="section-2">
     <h2 class="page-header">
         Portfolio and Development
@@ -45,6 +45,8 @@ section-2 -->
 
     </div>
     
+
+    <div class="blank-space"></div>
     
 </div> 
 <!-- end section-2

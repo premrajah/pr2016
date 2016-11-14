@@ -43,7 +43,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#" alt="Prem Rajah">
             <img alt="Prem Rajah" class="img-responsive brand-img" src="img/logo-40.png">
           </a>
 
@@ -56,6 +56,12 @@
             <li><a href="#section-2">Portfolio</a></li>
             <li><a href="#section-3">Resume</a></li>
             <li><a href="#section-4">Links</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li> <a href="https://twitter.com/premrajah" target="_blank" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+            <li> <a href="https://www.linkedin.com/in/premrajah" target="_blank" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> </li>
+            <li> <a href="https://github.com/premrajah" title="Github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> </li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
