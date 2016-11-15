@@ -18,6 +18,20 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
 
+                    <div class="row">
+                        <div class="col-sm-4">
+                          <img src="https://mave.me/img/projects/full_placeholder.png" alt="" class="img-responsive"> 
+                        </div>
+
+                        <div class="col-sm-4">
+                          <img src="" alt="" class="img-responsive">
+                        </div>
+
+                        <div class="col-sm-4">
+                          <img src="" alt="" class="img-responsive">
+                        </div>
+                      </div>
+
                 </div>  
             </div>
 

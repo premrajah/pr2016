@@ -19,15 +19,15 @@
             </p>
 
             <p class="about-text">
-                After starting my career as a designer I realized I had a passion for development and an intrigue to solving problems with code this has lead me to pursue my dreams. Most of what I know I taught myself, over the years learning from very good teacher’s and from my own mistakes. 
+                After starting my career as a designer, over the years I realized I had a passion for development and an intrigue to solving problems with code this has lead me to pursue my dreams. Most of what I know I taught myself, and also learning from some very good teacher’s and from my own mistakes. 
             </p>
 
             <p class="about-text">
-                To pursue my dreams, I knew I needed a foundation, a place to start again, therefore in 2014 I invested in myself and started my MSc at the University of Sussex as a part-time student and finish it with flying colours in September, 2016.  
+                To pursue my dreams, I knew I needed a foundation, a place to start again, therefore in 2014 I invested in myself and started my MSc at the University of Sussex as a part-time student and finished it with flying colours in September, 2016.  
             </p>
 
             <p class="about-text">
-                I always challenge myself with a vast toolbox full of skills, to me each project is unique and depending on the work at hand I choose the right tools that is needed to complete the project.
+                I always challenge myself, equiped with a vast toolbox of skills, to me each project is unique, and depending on the work at hand I pick the right tools that is needed to complete the project.
             </p>
 
             <!-- education  -->
