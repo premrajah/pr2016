@@ -42,6 +42,12 @@ ____________________________________________ */
 	}
 
 
+	.blank-space {
+
+		min-height: 100px;
+	}
+
+
 
 
 /* Cosmetic Changes 
@@ -271,15 +277,15 @@ ____________________________________________ */
 /* General Color  
 ____________________________________________ */
 
-.page-header{
+	.page-header{
 
-	color: #2c2e31;
-}
+		color: #2c2e31;
+	}
 
-.page-sub-header {
+	.page-sub-header {
 
-	color: #83ba43;
-}
+		color: #83ba43;
+	}
 
 
 
@@ -287,26 +293,26 @@ ____________________________________________ */
 About Area 
 ____________________________________________ */
 
-.about-text {
-	padding-top: 8px;
-}
+	.about-text {
+		padding-top: 8px;
+	}
 
-.section-1 .edu-area {
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
+	.section-1 .edu-area {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 
-.prog-space, .design-space {
+	.prog-space, .design-space {
 
-	padding: 12px;
-	text-align: center;
-}
+		padding: 12px;
+		text-align: center;
+	}
 
-.img-size-64 {
+	.img-size-64 {
 
-	max-height: 64px;
-	max-width: 64px;
-}
+		max-height: 64px;
+		max-width: 64px;
+	}
 
 
 
@@ -314,66 +320,12 @@ ____________________________________________ */
 Portfolio and Development Area 
 ____________________________________________ */
 
-.portfolio-img {
+	.work-box {
 
-	margin-left: -14px;
-}
+		margin-top: 10px;
+	}
 
-.dev-box-ex {
-
-	/*width: 300px;*/
-	height: 200px;
-	box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
-	border-bottom: 2px solid #fff;
-	border-right: 2px solid #fff;
-	margin: 5% auto 0 auto;
-	/*background: url(https://files.graphiq.com/stories/t2/tiny_cat_12573_8950.jpg);*/
-	background-size: cover;
-	border-radius: 5px;
-	overflow: hidden;
-	position: relative;
-
-}
-
-/* internal absolute position */
-.dev-int-abs {
-
-	background-color: rgba(0, 0, 0, .30);
-	width: 100%;
-	height: 30%;
-	position: absolute;
-	padding: 8px;
-	bottom: 0;
-	left: 0;
-	color: rgba(255, 255, 255, .60);
-	text-align: center;
-}
-
-/* Internal overlay */
-.dev-box-overlay  {
-
-	background: rgba(0, 0, 0, .75);
-	text-align: center;
-	padding: 40px 0 40px 0;
-	margin-top: 18px;
-	opacity: 0;
-	-webkit-transition: opacity .25s ease;
-	-mox-transition: opacity .25s ease;
-	/*position: absolute;*/
-	/*z-index: -1;*/
-}
-
-
-.dev-box-ex:hover .dev-box-overlay {
-
-	opacity: 1;
-}
-
-.dev-box-overlay-text {
-
-	color: rgba(255, 255, 255, .85);
-	font-size: 20px;	
-}
+	
 
 
 /*
@@ -438,10 +390,7 @@ ____________________________________________ */
 Ressume  Area
 ____________________________________________ */
 
-.blank-space {
 
-	min-height: 300px;
-}
 
 
 
@@ -493,15 +442,26 @@ li img {
 	}
 
 
-/* portfolio area 
+/* development and portfolio area 
 _____________________________________________________ */
 
-	.work-image-area img {
 
-	 	margin: 10px;
+
+
+
+
+/* work display area
+_____________________________________________________ */
+
+	.work-box {
+
+		margin-top: 20px;
 	}
 
-	  
+
+
+
+
 
 
 }
@@ -557,13 +517,11 @@ _____________________________________________________ */
 
 
 
- /* portfolio area 
- _____________________________________________________ */
 
-	.work-image-area img {
+/* development and portfolio
+______________________________________________________ */
 
-	 	margin: 10px;
-	}
+	
 
 
 

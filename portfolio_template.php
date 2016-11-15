@@ -114,15 +114,15 @@
 
 
       <div class="row work-image-area">
-        <div class="col-sm-4">
+        <div class="col-sm-4 work-box">
           <img src="" alt="" class="img-responsive">
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-4 work-box">
           <img src="" alt="" class="img-responsive">
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-4 work-box">
           <img src="" alt="" class="img-responsive">
         </div>
       </div>
