@@ -27,7 +27,7 @@
             </p>
 
             <p class="about-text">
-                I always challenge myself, equiped with a vast toolbox of skills, to me each project is unique, and depending on the work at hand I pick the right tools that is needed to complete the project.
+                I always challenge myself. I am equiped with a vast toolbox of skills, to me each project is unique, and depending on the work at hand I pick the right tools that is needed to complete the project.
             </p>
 
             <!-- education  -->

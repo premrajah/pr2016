@@ -13,6 +13,11 @@
     <a href="http://www.lilyday.co.uk/" title="Lily Day" target="_blank">
         <h4 class="media-heading">Lily Day (website)</h4>
     </a>
+
+    <p>
+     A shopify website for an artist who makes and sells craft items.
+    </p>
+
     <ul>
         <li>Website maintenance </li>
         <li>Shopify site</li>

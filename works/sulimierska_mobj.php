@@ -13,6 +13,11 @@
     <a href="http://sulimierska.com/wordpress/" title="Dr Malgorzata Sulimierska" target="_blank">
         <h4 class="media-heading">Dr Malgorzata Sulimierska (website)</h4>
     </a>
+
+    <p>
+      Personal website created for a client who is a tutorial fellow in banking at the University of Sussex.
+    </p>
+
     <ul>
         <li>Website created and maintained</li>
         <li>Wordpress site</li>

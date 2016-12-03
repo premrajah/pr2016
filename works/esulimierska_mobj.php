@@ -13,6 +13,11 @@
     <a href="http://esulimierska.com" title="Elzbieta Sulimierska" target="_blank">
         <h4 class="media-heading">Elzbieta Sulimierska, Tax Consultant (website)</h4>
     </a>
+
+    <p>
+      A website for a tax consultant based out of Poland.
+    </p>
+
     <ul>
         <li>Responsive design and development</li>
         <li>Key Technologies: HTML, CSS, JavaScript, Bootstrap</li>

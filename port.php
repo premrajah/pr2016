@@ -22,17 +22,17 @@
                     <div class="row">
 
                         <div class="col-sm-4 port-work-contain">
-                          <img src="https://mave.me/img/projects/full_placeholder.png" alt="" class="img-responsive port-work-img"> 
+                          <img src="works/img/tapestry_def_port_1024x768.png" alt="Tapestry: Sunshine" class="img-responsive port-work-img"> 
                           
-                          <a href="#" title="">
-                              <div class="port-work-text">Text Goes Here</div>
+                          <a href="works/tapestry_def.php" title="Tapestry: Sunshine">
+                              <div class="port-work-text">Tapestry: Sunshine</div>
                           </a>
 
                         </div>
 
                         
                         <div class="col-sm-4 port-work-contain">
-                          <img src="" alt="" class="img-responsive port-work-img"> 
+                          <img src="https://mave.me/img/projects/full_placeholder.png" alt="" class="img-responsive port-work-img"> 
                           
                           <a href="#" title="">
                               <div class="port-work-text">Text Goes Here</div>
@@ -64,12 +64,13 @@
                     <h4>More portfolio links</h4>
 
                         <?php include 'works/sulimierska_mobj.php' ?>
-
+                        <hr>
                         <?php include 'works/lilyday_mobj.php' ?>
-
+                        <hr>
                         <?php include 'works/exs_mobj.php' ?>
-
+                        <hr>
                         <?php include 'works/esulimierska_mobj.php' ?>
+                        <hr>
 
                 </div>
                 <!-- end more portfolio links -->

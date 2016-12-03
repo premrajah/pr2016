@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- Favicons -->
-        <?php include 'favicon.php'; ?>
+        <?php include '../favicon.php'; ?>
         
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
@@ -20,13 +20,13 @@
                 padding-bottom: 20px;
             }
         </style>
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
         <!-- Google Material Icons -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="../css/main.css">
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <!-- font awesome -->
         <script src="https://use.fontawesome.com/4998f67292.js"></script>
     </head>
@@ -44,18 +44,18 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">
-            <img alt="Prem Rajah" class="img-responsive brand-img" src="img/logo-40.png">
+            <img alt="Prem Rajah" class="img-responsive brand-img" src="../img/logo-40.png">
           </a>
 
           <!-- <a class="navbar-brand" href="#">Prem Rajah</a> -->
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav" id="top-nav">
-            <li class="home-btn"><a href="index.php">Home</a></li>
-            <li><a href="index.php#section-1">About</a></li>
-            <li><a href="index.php#section-2">Portfolio</a></li>
-            <li><a href="index.php#section-3">Resume</a></li>
-            <li><a href="index.php#section-4">Links</a></li>
+            <li class="home-btn"><a href="../index.php">Home</a></li>
+            <li><a href="../index.php#section-1">About</a></li>
+            <li><a href="../index.php#section-2">Portfolio</a></li>
+            <li><a href="../index.php#section-3">Resume</a></li>
+            <li><a href="../index.php#section-4">Links</a></li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
@@ -134,7 +134,7 @@
       <div class="blank-space"></div>
 
     <!-- Footer Area (outside container) -->
-    <?php include 'footer.php' ?> 
+    <?php include '../footer.php' ?> 
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -159,7 +159,7 @@
         
 
         <!-- My Script -->
-        <script src="js/main.js"></script>
+        <script src="../js/main.js"></script>
 
     </body>
 </html>

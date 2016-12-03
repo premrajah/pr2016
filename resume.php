@@ -4,10 +4,15 @@
         Resume
     </h2>
 
+
+    <div class="col-xs-10 col-xs-offset-1 resume-area">
+
     	<i class="material-icons">description</i> <i class="material-icons">file_download</i> <i class="material-icons">picture_as_pdf</i>
-    <h4>
-        CV - <a href="https://dl.dropboxusercontent.com/u/23419492/public_cv/cv.pdf" title="CV">Curriculum vitae download</a>
-    </h4>
+	    <h4>
+	        CV - <a href="https://dl.dropboxusercontent.com/u/23419492/public_cv/cv.pdf" title="CV">Curriculum vitae download</a>
+	    </h4>
+
+    </div>
 
     
      
