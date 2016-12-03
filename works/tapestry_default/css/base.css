@@ -1,0 +1,332 @@
+/* base colors 
+-------------------------------- */
+/* for gradiant bg 
+-------------------------------- */
+/* default theme - navbar colours
+--------------------------------*/
+/* christmas theme - navbar colors
+--------------------------------*/
+/* forest school theme - navbar colors
+--------------------------------*/
+/* kstage1 theme - navbar colors
+--------------------------------*/
+/* plain01 theme - navbar colors
+--------------------------------*/
+/* plain02 theme - navbar colors
+--------------------------------*/
+/* plain03 theme - navbar colors
+--------------------------------*/
+/* plain04 theme - navbar colors
+--------------------------------*/
+/* plain05 theme - navbar colors
+--------------------------------*/
+/* MIXINS 
+--------------------------------*/
+/* default theme navbar colours 
+------------------------------------------------------- */
+/* end default theme navbar colours */
+/* christmas theme navbar colours 
+------------------------------------------------------- */
+/* end christmas theme navbar colours */
+/* forest school theme navbar colours 
+------------------------------------------------------- */
+/* end forest school theme navbar colours */
+/* kstage1 theme navbar colours 
+------------------------------------------------------- */
+/* end kstage1 theme navbar colours */
+/* plain01 theme navbar colours 
+------------------------------------------------------- */
+/* end plain01 theme navbar colours */
+/* plain02 theme navbar colours 
+------------------------------------------------------- */
+/* end plain02 theme navbar colours */
+/* plain03 theme navbar colours 
+------------------------------------------------------- */
+/* end plain03 theme navbar colours */
+/* plain04 theme navbar colours 
+------------------------------------------------------- */
+/* end plain04 theme navbar colours */
+/* plain05 theme navbar colours 
+------------------------------------------------------- */
+/* end plain05 theme navbar colours */
+/*	Imports all the different navbars for different themes	*/
+/* sets the background for the default theme
+----------------------------------------------------- */
+/* sets the background for the christmas theme 
+--------------------------------------------------- */
+/* sets the background for the forest school theme 
+------------------------------------------------------	*/
+/* sets the background for the keystage1 theme
+---------------------------------------------------- */
+/*	Imports all the different backgrounds for the different themes	*/
+/* makes the width full for mobile devices 
+----------------------------------------------------*/
+/* main content mixin for border and background
+--------------------------------*/
+/* blue border and shadow for the main area
+--------------------------------*/
+/* placement of the tapestery logo at the bottom of the page
+---------------------------------------------------------------- */
+/* moves the tapestry loge to adapt to the forest school theme 
+---------------------------------------------------------------- */
+/* adds the vine for the forst school theme
+-------------------------------------------------  */
+/* displays and positions the butterfly logo 
+--------------------------------------------------- */
+/* adds the real butterfly to the forest school themem 
+------------------------------------------------------------ */
+/* displays and positions the caterpillar at the bottom of the page 
+--------------------------------- ------------------------------------ */
+/* adds the caterpillar to the forest theme 
+------------------------------------------------- */
+/* displays and positions santa for the christmas theme 
+------------------------------------------------------------*/
+/* displays and positions wall for the kstage1 theme 
+-------------------------------- --------------------------- */
+/* Spacing (width, height and other size options 
+---------------------------------------------------------------------------------------------------------- */
+/* Header logo col1 spacing - .header-col1 
+---------------------------------------------------------------------------------------------------------- */
+/* Header logo spacing - .header-col1-logo
+---------------------------------------------------------------------------------------------------------- */
+/* image assets
+---------------------------------------------------------------------------------------------------------- */
+/* 	Default navigation colors 	
+--------------------------------------------------------------------------------------------------- */
+/* --- Style --- */
+.navbar-default {
+  background-color: #337ab7;
+  border-color: #4b8fca; }
+  .navbar-default .navbar-brand {
+    color: #ecf0f1; }
+    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+      color: #1d598c; }
+  .navbar-default .navbar-nav > li > a {
+    color: #ecf0f1; }
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+      color: #1d598c; }
+  .navbar-default .navbar-nav .active > a, .navbar-default .navbar-nav .active > a:hover, .navbar-default .navbar-nav .active > a:focus {
+    color: #1d598c;
+    background-color: #4b8fca; }
+  .navbar-default .navbar-nav .open > a, .navbar-default .navbar-nav .open > a:hover, .navbar-default .navbar-nav .open > a:focus {
+    color: #1d598c;
+    background-color: #4b8fca; }
+    .navbar-default .navbar-nav .open > a .caret, .navbar-default .navbar-nav .open > a:hover .caret, .navbar-default .navbar-nav .open > a:focus .caret {
+      border-top-color: #1d598c;
+      border-bottom-color: #1d598c; }
+  .navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #ecf0f1;
+    border-bottom-color: #ecf0f1; }
+  .navbar-default .navbar-nav > .dropdown > a:hover .caret, .navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #1d598c;
+    border-bottom-color: #1d598c; }
+  .navbar-default .navbar-toggle {
+    border-color: #4b8fca; }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+      background-color: #4b8fca; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #ecf0f1; }
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1; }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #1d598c;
+      background-color: #4b8fca; } }
+/* Default Theme: multiple device import for default theme
+--------------------------------------------------------------------------------------------------- */
+/* xtra large devices 
+---------------------------- */
+/* Xtra Large Devices 
+--------------------------------------------- */
+body {
+  /* --- Style --- */
+  background: url("../themes/default/images/snail.png") no-repeat fixed 98% 100%, url("../themes/default/images/grass.png") bottom repeat-x fixed, url("../themes/default/images/blue_hatch_alpha.png") top left repeat, url("../themes/default/images/bg_grad.jpg") top left repeat-x #edf6f8;
+  padding-top: 50px; }
+  body .navbar-inverse {
+    background-color: #337ab7;
+    border-color: #337ab7; }
+    body .navbar-inverse .navbar-link {
+      color: #fff; }
+    body .navbar-inverse .navbar-text {
+      color: #fff; }
+    body .navbar-inverse .navbar-brand {
+      color: #ecf0f1; }
+      body .navbar-inverse .navbar-brand:hover, body .navbar-inverse .navbar-brand:focus {
+        color: #1d598c; }
+    body .navbar-inverse .navbar-nav > li > a {
+      color: #ecf0f1; }
+      body .navbar-inverse .navbar-nav > li > a:hover, body .navbar-inverse .navbar-nav > li > a:focus {
+        color: #1d598c; }
+    body .navbar-inverse .navbar-nav .active > a, body .navbar-inverse .navbar-nav .active > a:hover, body .navbar-inverse .navbar-nav .active > a:focus {
+      color: #1d598c;
+      background-color: #4b8fca; }
+    body .navbar-inverse .navbar-nav .open > a, body .navbar-inverse .navbar-nav .open > a:hover, body .navbar-inverse .navbar-nav .open > a:focus {
+      color: #1d598c;
+      background-color: #4b8fca; }
+      body .navbar-inverse .navbar-nav .open > a .caret, body .navbar-inverse .navbar-nav .open > a:hover .caret, body .navbar-inverse .navbar-nav .open > a:focus .caret {
+        border-top-color: #1d598c;
+        border-bottom-color: #1d598c; }
+    body .navbar-inverse .navbar-nav > .dropdown > a .caret {
+      border-top-color: #ecf0f1;
+      border-bottom-color: #ecf0f1; }
+    body .navbar-inverse .navbar-nav > .dropdown > a:hover .caret, body .navbar-inverse .navbar-nav > .dropdown > a:focus .caret {
+      border-top-color: #1d598c;
+      border-bottom-color: #1d598c; }
+    body .navbar-inverse .navbar-toggle {
+      border-color: #4b8fca; }
+      body .navbar-inverse .navbar-toggle:hover, body .navbar-inverse .navbar-toggle:focus {
+        background-color: #4b8fca; }
+      body .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #ecf0f1; }
+    body .navbar-inverse .dropdown-menu {
+      background-color: #337ab7; }
+    body .navbar-inverse .dropdown-menu > li > a {
+      color: #ecf0f1; }
+    body .navbar-inverse .dropdown-menu > li > a:hover {
+      background-color: #1d598c; }
+  @media (max-width: 767px) {
+    body .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+      color: #fff; }
+      body .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, body .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #1d598c;
+        background-color: #4b8fca; }
+    body .navbar-inverse .navbar-collapse {
+      border-color: bg_Default; } }
+
+/* header area 
+ ------------------------------- */
+.header-content .header-col1 {
+  background-image: url("../themes/default/images/logo_bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 200px;
+  line-height: 200px; }
+  .header-content .header-col1 .header-col1-logo {
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 80px; }
+.header-content .header-col3 {
+  background-image: url("../themes/default/images/bee_clouds.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 200px; }
+
+/* main area
+------------------------------- */
+.main-content {
+  background-color: #fff;
+  border: 6px solid #aecaec;
+  min-height: 500px;
+  padding: 20px;
+  margin-top: 10px;
+  -webkit-box-shadow: 0, 5px, 9px, rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0, 5px, 9px, rgba(0, 0, 0, 0.5);
+  box-shadow: 0, 5px, 9px, rgba(0, 0, 0, 0.5);
+  z-index: 500;
+  position: relative;
+  padding-bottom: 10%; }
+  .main-content .tapestry-logo-bot {
+    position: absolute;
+    bottom: 0;
+    right: 40px; }
+  .main-content .top-left-icon-img {
+    position: absolute;
+    left: -50px;
+    top: -40px;
+    background-image: url("../themes/default/images/butterfly.png");
+    background-repeat: no-repeat;
+    width: 97px;
+    height: 90px; }
+  .main-content .bot-left-icon-img {
+    position: absolute;
+    bottom: 0px;
+    left: 40px;
+    background-image: url("../themes/default/images/caterpillar.png");
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 54px; }
+
+/*  large devices 
+---------------------------- */
+@media only screen and (max-width: 1200px) {
+  /* Large Devices - max-width : 1200px
+  --------------------------------------------- */ }
+/* standard devices 
+ ---------------------------- */
+@media only screen and (max-width: 992px) {
+  /* Standard Devices - max-width : 979px
+  --------------------------------------------- */
+  .header-area .header-col1 {
+    min-height: 160px;
+    line-height: 160px; }
+    .header-area .header-col1 .header-col1-logo {
+      max-width: 84px;
+      max-height: 84px;
+      margin-left: 60px; }
+  .header-area .header-col3 {
+    background-image: url("../themes/default/images/bee_clouds_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 160px; }
+
+  /* main area 
+  --------------------------- */
+  .main-content {
+    padding-bottom: 16%; } }
+/* tablet devices 
+ ---------------------------- */
+@media only screen and (max-width: 768px) {
+  /* Tablet Devices - max-width : 767px
+  --------------------------------------------- */
+  body {
+    background: url("../themes/default/images/blue_hatch_alpha.png") top left repeat, url("../themes/default/images/bg_grad.jpg") top left repeat-x #edf6f8; }
+
+  .header-area {
+    min-height: 120px;
+    line-height: 136px; }
+    .header-area .header-col1 {
+      width: 50%; }
+    .header-area .header-col1-logo {
+      max-width: 84px;
+      max-height: 84px;
+      margin-left: 14px; } }
+/* mobile devices 
+ ---------------------------- */
+@media only screen and (max-width: 480px) {
+  /* Mobile Devices  - max-width : 480px
+  --------------------------------------------- */
+  .header-area .header-col1 {
+    width: 100%; }
+  .header-area .header-col2, .header-area .header-col3 {
+    display: none; }
+
+  .main-area .container-full {
+    padding-right: 0;
+    padding-left: 0; }
+    .main-area .container-full .main-content {
+      border-right: 0;
+      border-left: 0; } }
+/* smaller devices 
+ ---------------------------- */
+@media only screen and (max-width: 320px) {
+  /* Smaller Devices - max-width : 320px
+  --------------------------------------------- */ }
+/* Christmas Theme: multiple device import for christmas theme
+--------------------------------------------------------------------------------------------------- */
+/* Forest School Theme: multiple device import for forest school theme
+--------------------------------------------------------------------------------------------------- */
+/* KeyStage1 Theme: multiple device import for forest school theme
+--------------------------------------------------------------------------------------------------- */
+/* Plain Themes 
+==================================================================================================== */
+/* plain01 theme: blue and purple, based on winterton school
+--------------------------------------------------------------------------------------------------- */
+/* plain02 theme: blue based on box.com
+--------------------------------------------------------------------------------------------------- */
+/* plain03 theme: green and orange
+--------------------------------------------------------------------------------------------------- */
+/* plain04 theme: teen (pink)
+--------------------------------------------------------------------------------------------------- */
+/* plain05 theme: green 
+--------------------------------------------------------------------------------------------------- */

@@ -1,0 +1,61 @@
+/*
+Error: Undefined variable: "$bgDefault".
+        on line 3 of /Applications/MAMP/htdocs/tapestry_9.0/sass/navbar-color-default.scss
+
+1: /* --- Style --- *\/
+2: .navbar-default {
+3:     background-color: $bgDefault;
+4:     border-color: $bgHighlight;
+5:     .navbar-brand {
+6:         color: $colDefault;
+7:         &:hover, &:focus {
+8:             color: $colHover; }}
+
+Backtrace:
+/Applications/MAMP/htdocs/tapestry_9.0/sass/navbar-color-default.scss:3
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:20:in `render'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:268:in `render'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:404:in `run'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
+/Volumes/DoNotRemove-ExtDrive/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$bgDefault\".\A         on line 3 of /Applications/MAMP/htdocs/tapestry_9.0/sass/navbar-color-default.scss\A \A 1: /* --- Style --- */\A 2: .navbar-default {\A 3:     background-color: $bgDefault;\A 4:     border-color: $bgHighlight;\A 5:     .navbar-brand {\A 6:         color: $colDefault;\A 7:         &:hover, &:focus {\A 8:             color: $colHover; }}"; }
